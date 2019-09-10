@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  saharatours:
+    image: ${DOCKER_REGISTRY}saharatours
+    build:
+      context: .\SaharaTours
+      dockerfile: Dockerfile
